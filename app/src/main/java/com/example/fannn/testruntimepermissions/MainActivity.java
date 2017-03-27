@@ -49,4 +49,8 @@ public class MainActivity extends AppCompatActivity {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         Log.e(MainActivity.class.getSimpleName(),requestCode+"");
     }
+	
+	public void test(){
+		Log.e(MainActivity.class.getSimpleName(),"sourcetree");
+	}
 }
