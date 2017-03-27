@@ -57,4 +57,8 @@ public class MainActivity extends AppCompatActivity {
 	public void test2(){
 		Log.e(MainActivity.class.getSimpleName(),"sourcetree");
 	}
+	
+	public void test3(){
+		Log.e(MainActivity.class.getSimpleName(),"sourcetree");
+	}
 }
